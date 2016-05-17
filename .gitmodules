@@ -1,0 +1,3 @@
+[submodule "eel"]
+	path = eel
+	url = https://github.com/robfblair/eel.git
