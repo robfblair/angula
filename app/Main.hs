@@ -4,5 +4,5 @@ import Eel
 import Data.Int
 
 main :: IO ()
-main = mainM "main.ll" $ \(_argc, _argv) -> do
-    return $ lit (1::Int32)
+main = mainM "template/source/main.ll" $ \(_argc, _argv) -> do
+    return $ lit (0::Int32)
