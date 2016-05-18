@@ -1,6 +1,8 @@
 module Main where
 
-import Lib
+import Eel
+import Data.Int
 
 main :: IO ()
-main = someFunc
+main = mainM "main.ll" $ \(_argc, _argv) -> do
+    return $ lit (1::Int32)
